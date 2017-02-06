@@ -1,0 +1,22 @@
+{
+  "name": "app-template",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Alex_K"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./app/libs/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

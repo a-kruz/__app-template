@@ -1,0 +1,71 @@
+
+// ***** Colors ***** //
+$color__link: royalblue;
+$color__link-visited: purple;
+$color__link-hover: midnightblue;
+
+$color__background-body: #fff;
+$color__background-screen: #f1f1f1;
+$color__background-hr: #ccc;
+$color__background-button: #e6e6e6;
+$color__background-pre: #eee;
+$color__background-ins: #fff9c0;
+$color__background-light: #f6f6f6; // new
+
+$color__text-site: #444; // new
+$color__text-screen: #21759b;
+$color__text-input: #666;
+$color__text-input-focus: #111;
+$color__text-main: #404040;
+
+$color__border-button: #ccc #ccc #bbb;
+$color__border-button-hover: #ccc #bbb #aaa;
+$color__border-button-focus: #aaa #bbb #bbb;
+$color__border-input: #ccc;
+$color__border-abbr: #666;
+
+// ***** Typography ***** //
+$font__main: sans-serif;
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__line-height-body: 1.5;
+$font__line-height-pre: 1.6;
+
+$font__icon: 'themify'; // new
+
+// ***** rem base ***** //
+$font__rem-base: 10px;
+$font__base-font-size: $font__rem-base;
+$font__base-line-height: 1.6;
+
+// ***** Heading sizes ***** // // new
+$font__size-h1: 34px;
+$font__size-h2: 26px;
+$font__size-h3: 24px;
+$font__size-h4: 20px;
+$font__size-h5: 18px;
+$font__size-h6: 16px;
+
+
+// ***** Grid Breakpoints ***** //
+$grid-breakpoint-small: 544px !default; // Small screen / phone
+$grid-breakpoint-medium: 768px !default; // Medium screen / tablet
+$grid-breakpoint-large: 992px !default; // Large screen / desktop
+$grid-breakpoint-extra-large: 1200px !default; // Extra large screen / wide desktop
+
+// ***** Conainer Widths ***** //
+$container-width-small: 576px !default;
+$container-width-medium: 720px !default;
+$container-width-large: 940px !default;
+$container-width-extra-large: 1080px !default;
+
+// ***** Gutter Spacing ***** //
+$grid-gutter: 30px !default;
+
+$grid-columns: 12 !default;
+$grid-width: 1080px !default;
+
+
+// Structure:
+// $size__site-main: 100%;
+// $size__site-sidebar: 25%;

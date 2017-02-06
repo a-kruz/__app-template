@@ -1,0 +1,62 @@
+/*==========  Desktop First  ==========*/
+
+/* Extra large screen / wide desktop */
+@media (max-width: $grid-breakpoint-extra-large - 1) {
+
+}
+
+
+/* Large screen / desktop */
+@media (max-width: $grid-breakpoint-large - 1) {
+
+}
+
+
+/* Medium screen / tablet */
+@media (max-width: $grid-breakpoint-medium - 1) {
+  
+}
+
+
+/* Small screen / phone */
+@media (max-width: $grid-breakpoint-small - 1) {
+    
+}
+
+
+/* Extra small screen / phone */
+// @media(max-width: $grid-breakpoint-extra-small - 1) {
+    
+// }
+
+
+/*==========  Mobile First  ==========*/
+
+/* Extra small screen / phone */
+// @media(min-width: $grid-breakpoint-extra-small) {
+    
+// }
+
+
+/* Small screen / phone */
+@media (min-width: $grid-breakpoint-small) {
+    
+}
+
+
+/* Medium screen / tablet */
+@media (min-width: $grid-breakpoint-medium) {
+  
+}
+
+
+/* Large screen / desktop */
+@media (min-width: $grid-breakpoint-large) {
+  
+}
+
+
+/* Extra large screen / wide desktop */
+@media (min-width: $grid-breakpoint-extra-large) {
+
+}

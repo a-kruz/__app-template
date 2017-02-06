@@ -1,0 +1,203 @@
+/* Container */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: $grid-gutter / 2;
+    padding-right: $grid-gutter / 2;
+}
+
+/* Grid Cell Wrapper */
+.grid {
+    display: flex;
+    margin-left: -$grid-gutter / 2;
+    margin-right: -$grid-gutter / 2;
+    flex-wrap: wrap;
+}
+
+/* Grid Cell */
+.grid-cell {
+    flex: 1;
+    min-width: 1px; // Firefox-34-ignoring-max-width-for-flexbox
+    display: inline-block; // In IE 10, setting -ms-flex-flow: row wrap will not wrap unless display: inline-block is set on child elements.
+    list-style: none; // Need when added this class to li
+    padding-left: $grid-gutter / 2;
+    padding-right: $grid-gutter / 2;
+}
+
+// ***** Custom styles for additional flex alignment options. ***** //
+
+// ***** Alignment per row ***** //
+
+/* Alignment Top */
+.grid-top {
+    align-items: flex-start;
+}
+
+/* Alignment Bottom */
+.grid-bottom {
+    align-items: flex-end;
+}
+
+/* Alignment Center */
+.grid-center {
+    align-items: center;
+}
+
+// ***** Alignment per cell ***** //
+
+/* Alignment Top */
+.grid-cell-top {
+    align-self: flex-start;
+}
+
+/* Alignment Bottom */
+.grid-cell-bottom {
+    align-self: flex-end;
+}
+
+/* Alignment Center */
+.grid-cell-center {
+    align-self: center;
+}
+
+/* Extra small screen / phone */
+@media( max-width: $grid-breakpoint-small - 1 ) {
+
+    .grid {
+        flex-flow: row wrap;
+    }
+
+    .grid-cell {
+        flex: 0 0 100%;
+    }
+}
+
+/* Small screen / phone */
+@media (min-width: $grid-breakpoint-small) {
+
+    .container {
+        max-width: $container-width-small;
+    }
+
+    .sm-grid-1-10 {
+        flex: 0 0 10%;
+    }
+
+    .sm-grid-1-5 {
+        flex: 0 0 20%;
+    }
+
+    .sm-grid-1-4 {
+        flex: 0 0 25%;
+    }
+
+    .sm-grid-1-3 {
+        flex: 0 0 33.3333334%;
+    }
+
+    .sm-grid-1-2 {
+        flex: 0 0 50%;
+    }
+
+    .sm-grid-2-3 {
+        flex: 0 0 66.66%;
+    }
+
+    .sm-grid-3-4 {
+        flex: 0 0 75%;
+    }
+
+    .sm-grid-1-1 {
+        flex: 0 0 100%;
+    }
+
+}
+
+/* Medium screen / tablet */
+@media (min-width: $grid-breakpoint-medium) {
+
+    .container {
+        max-width: $container-width-medium;
+    }
+
+    .md-grid-1-10 {
+        flex: 0 0 10%;
+    }
+
+    .md-grid-1-5 {
+        flex: 0 0 20%;
+    }
+
+    .md-grid-1-4 {
+        flex: 0 0 25%;
+    }
+
+    .md-grid-1-3 {
+        flex: 0 0 33.3333334%;
+    }
+
+    .md-grid-1-2 {
+        flex: 0 0 50%;
+    }
+
+    .md-grid-2-3 {
+        flex: 0 0 66.66%;
+    }
+
+    .md-grid-3-4 {
+        flex: 0 0 75%;
+    }
+
+    .md-grid-1-1 {
+        flex: 0 0 100%;
+    }
+
+}
+
+/* Large screen / desktop */
+@media (min-width: $grid-breakpoint-large) {
+
+    .container {
+        max-width: $container-width-large;
+    }
+
+    .lg-grid-1-10 {
+        flex: 0 0 10%;
+    }
+
+    .lg-grid-1-5 {
+        flex: 0 0 20%;
+    }
+
+    .lg-grid-1-4 {
+        flex: 0 0 25%;
+    }
+
+    .lg-grid-1-3 {
+        flex: 0 0 33.3333334%;
+    }
+
+    .lg-grid-1-2 {
+        flex: 0 0 50%;
+    }
+
+    .lg-grid-2-3 {
+        flex: 0 0 66.66%;
+    }
+
+    .lg-grid-3-4 {
+        flex: 0 0 75%;
+    }
+
+    .lg-grid-1-1 {
+        flex: 0 0 100%;
+    }
+
+}
+
+/* Extra large screen / wide desktop */
+@media (min-width: $grid-breakpoint-extra-large) {
+    .container {
+        max-width: $container-width-extra-large;
+    }
+}
